@@ -1,4 +1,5 @@
-jQuery(document).ready(function() {
+jQuery.noConflict()(function ($) { // this was missing for me
+    $(document).ready(function() {
   var randomNumber;
   var randomSpot;
   var randomQuote;
@@ -82,4 +83,5 @@ jQuery(document).ready(function() {
     getSpot();
   });
 
+});
 });
