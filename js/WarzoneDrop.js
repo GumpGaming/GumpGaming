@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function() {
   var randomNumber;
   var randomSpot;
   var randomQuote;
