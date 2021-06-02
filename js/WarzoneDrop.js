@@ -1,4 +1,4 @@
-jQuery.noConflict()(function($) {
+$.noConflict()(function($) {
   $(document).ready(function() {
     var randomNumber;
     var randomSpot;
