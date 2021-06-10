@@ -13,3 +13,6 @@ github_username: GumpGaming
 
 # Build settings
 markdown: kramdown
+
+# Google services
+#google_analytics: G-EHL6G5M6P6
