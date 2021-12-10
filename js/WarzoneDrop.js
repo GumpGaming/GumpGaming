@@ -2,7 +2,7 @@ $.noConflict()(function($) {
   $(document).ready(function() {
     var randomNumber;
     var randomSpot;
-    var randomQuote;
+    //var randomQuote;
     /*
         function getSpot() {
           var Spots = ["AFK", "Train", "B3", "B4", "B5", "B6", "B7", "C1", "C2", "C3",
@@ -37,7 +37,7 @@ $.noConflict()(function($) {
         "Any No Named Location"
       ];
 
-
+/*
       var Quotes = ["Never in the field of human conflict was so much owed by so many to so few. — Winston Churchill",
         "Success is not final, failure is not fatal: it is the courage to continue that counts. — Winston Churchill",
         "In war there is no prize for the runner-up. — General Omar Bradley",
@@ -95,13 +95,13 @@ $.noConflict()(function($) {
         "Diplomats are just as essential in starting a war as soldiers are for finishing it. — Will Rogers",
         "All that is necessary for evil to succeed is for good men to do nothing. — Edmund Burke"
       ];
-
+*/
       randomNumber = Math.floor(Math.random() * Spots.length);
       randomSpot = Spots[randomNumber];
-      randomQuote = Quotes[randomNumber];
+    //  randomQuote = Quotes[randomNumber];
 
       $(".Spot").text(randomSpot);
-      $(".Quote").text(randomQuote);
+    //  $(".Quote").text(randomQuote);
     }
 
     $("#newSpot").on("click", function() {
