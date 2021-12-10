@@ -169,6 +169,7 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                filter: drop-shadow(0 0 0.75rem #FF6A00);
             }
             hr {
                 margin: 30px auto;
@@ -348,4 +349,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
