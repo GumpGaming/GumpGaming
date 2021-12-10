@@ -1227,7 +1227,7 @@ h2 .small,
 .h2 .small,
 h3 .small,
 .h3 .small {
-  font-size: 85%;
+  font-size: 65%;
 }
 h4,
 .h4,
@@ -4873,7 +4873,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 100px;
   }
 }
 .thumbnail {
